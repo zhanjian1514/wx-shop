@@ -1,0 +1,35 @@
+<!--pages/ucenter/menu/menu.wxml-->
+<view class="cate-nav">
+  <view class="titleView">
+    <scroll-view scroll-x="true" class="tab" scroll-left="180" style="width: 750rpx;" >
+      <view wx:for="{{titleList}}" wx:key="{{index}}" class="titleItem">
+        <view style="font-size: 30rpx">{{item}}</view>
+      </view>
+    </scroll-view>
+  </view>
+    <view style="display:flex;flex:1">
+  <scroll-view scroll-y="true" class="container">
+    <view class="menu">
+      <view wx:for="{{manuList}}" wx:key="{{index}}" class="itemContainer">
+        <text style="font-size: 30rpx" class="title">{{item.key}}</text>
+        <view class="a">
+          <navigator wx:for="{{item.value}}" wx:key="" wx:for-item="data" wx:for-index="ids" class="itemList">
+            <text>{{data.title}}</text>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  </view>
+</view>
+<!-- <view class='container'>
+  <view wx:for="{{titleList}}" wx:key="{{index}}" class="test1">
+      <view style="font-size: 30rpx;color: red">{{item}}</view>
+    </view>
+</view> -->
+<!-- <scroll-view scroll-x="true" style="background:black;height:110px; white-space: nowrap;">
+  <view style="background: red; width: 200px; height: 100px; display: inline-block;"></view>
+  <view style="background: green; width: 200px; height: 100px; display: inline-block;"></view>
+  <view style="background: blue; width: 200px; height: 100px; display: inline-block;"></view>
+  <view style="background: yellow; width: 200px; height: 100px; display: inline-block;"></view>
+</scroll-view> -->

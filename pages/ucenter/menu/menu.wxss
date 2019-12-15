@@ -1,0 +1,127 @@
+/* pages/ucenter/menu/menu.wxss */
+.cate-nav {
+    /* display: flex;
+    flex: 1;
+    flex-direction: column; */
+    background: #f9f9f9;
+}
+
+.titleView {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+.tab {
+  height: 84rpx;
+  overflow: hidden;
+  display: flex;
+  background: #fff;
+  border-top: 1px solid rgba(0,0,0,.15);
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  white-space: nowrap; 
+}
+
+.titleItem {
+  display: inline-block;
+  height: 84rpx;
+  min-width: 130rpx;
+  padding: 0 15rpx;
+  line-height: 84rpx;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+.menu {
+  margin-top: 94rpx;
+  height: auto;
+  overflow: hidden;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  height: 50rpx;
+  font-size: 20rpx;
+}
+.a {
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  padding: 0 6.25rpx;
+}
+.itemList {
+  height: 100rpx;
+  width: 182.5rpx;
+  text-align: center;
+  background: #fff;
+  float: left;
+  overflow: hidden;
+  line-height: 100rpx;
+}
+
+
+
+
+
+
+
+
+
+
+.item{
+  display: inline-block;
+  margin-right: 20rpx;
+  width: calc(100% / 3);
+  height: 100rpx;
+  background: #ff00ff;
+}
+
+.scrollView1{
+  display: flex;
+  margin-top: 40rpx;
+  padding: 0 20rpx;
+  width: 100%;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+}
+.item1{
+  margin-right: 20rpx;
+  width: calc(100% / 3);
+  height: 100rpx;
+  background: #ff00ff;
+}
+.scrollView2{
+  margin-top: 40rpx;
+  padding: 0 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* .itemContainer{
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+} */
+.scrollItem{
+  margin-right: 20rpx;
+}
+
+.scrollView3{
+  margin-top: 40rpx;
+  padding: 0 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.item3{
+  margin-right: 20rpx;
+  /* width: calc(100% / 3); */
+  width: 240rpx;
+  height: 100rpx;
+  background: #aa22dd;
+}
